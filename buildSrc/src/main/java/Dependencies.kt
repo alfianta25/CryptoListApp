@@ -34,6 +34,7 @@ object Versions {
     val androidTestRunner = "1.1.2-alpha02"
     val espressoCore = "3.2.0-alpha02"
     val retrofit = "2.8.1"
+    val compose = "1.0.5"
     val retrofitCoroutines = "0.9.2"
     val retrofitGson = "2.8.1"
     val gson = "2.8.5"

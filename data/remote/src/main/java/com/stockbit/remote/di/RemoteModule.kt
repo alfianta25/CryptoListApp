@@ -1,5 +1,7 @@
 package com.stockbit.remote.di
 
+import com.stockbit.remote.CryptoFetchDatasource
+import com.stockbit.remote.CryptoFetchService
 import com.stockbit.remote.ExampleDatasource
 import com.stockbit.remote.ExampleService
 import okhttp3.Interceptor
@@ -26,7 +28,7 @@ fun createRemoteModule(baseUrl: String) = module {
             .build()
     }
 
-    factory{ get<Retrofit>().create(ExampleService::class.java) }
+    factory{ get<Retrofit>().create(CryptoFetchService::class.java) }
 
-    factory { ExampleDatasource(get()) }
+    factory { CryptoFetchDatasource(get()) }
 }

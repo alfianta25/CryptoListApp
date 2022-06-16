@@ -1,7 +1,8 @@
 package com.stockbit.model
 import com.google.gson.annotations.SerializedName
+import androidx.room.Entity
 
-
+@Entity
 data class CryptoListModel(
     @SerializedName("Data")
     val `data`: List<Data>,
