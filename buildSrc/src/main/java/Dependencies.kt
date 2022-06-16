@@ -53,6 +53,7 @@ object Versions {
     val mockk = "1.11.0"
     val fragmentTest = "1.1.0-alpha06"
     val databinding = "3.3.2"
+    val liveData = "2.2.0"
 }
 
 object Libraries {
@@ -70,6 +71,10 @@ object Libraries {
     val httpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.okHttp}"
     // GLIDE
     val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
+    // LIFECYCLE
+    val livedata = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.liveData}"
+    val lifecyclejava = "androidx.lifecycle:lifecycle-common-java8:${Versions.liveData}"
+    val lifecycle = "androidx.lifecycle:lifecycle-extensions:${Versions.liveData}"
 }
 
 object KotlinLibraries {

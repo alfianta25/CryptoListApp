@@ -5,7 +5,7 @@ import androidx.room.Entity
 @Entity
 data class CryptoListModel(
     @SerializedName("Data")
-    val `data`: List<Data>,
+    val data: List<Data>,
     @SerializedName("HasWarning")
     val hasWarning: Boolean,
     @SerializedName("Message")

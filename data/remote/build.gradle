@@ -13,8 +13,12 @@ dependencies {
     implementation Libraries.retrofit
     implementation Libraries.retrofitGsonConverter
     implementation Libraries.httpLoggingInterceptor
+    implementation Libraries.livedata
+    implementation Libraries.lifecycle
+    implementation Libraries.lifecyclejava
     // DATA MODULE
     implementation project(Modules.model)
+    implementation project(path: ':data:repository')
     // TEST
     testImplementation TestLibraries.junit
     testImplementation TestLibraries.koin

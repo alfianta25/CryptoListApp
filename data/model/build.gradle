@@ -7,4 +7,5 @@ dependencies {
     implementation Libraries.gson
     implementation Libraries.roomRunTime
     annotationProcessor Libraries.roomCompiler
+
 }

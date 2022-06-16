@@ -1,6 +1,6 @@
 package com.stockbit.repository.utils
 
-data class Resource<out T>(val status: Status, val data: T?, val error: Throwable?) {
+data class Resource<out T>(val status: Status, val data: T?, val error: String?) {
     companion object {
         fun <T> success(data: T?): Resource<T> {
             return Resource(
@@ -10,15 +10,15 @@ data class Resource<out T>(val status: Status, val data: T?, val error: Throwabl
             )
         }
 
-        fun <T> error(error: Throwable, data: T?): Resource<T> {
+        fun <T> error(message: String, data: T? = null): Resource<T> {
             return Resource(
                 Status.ERROR,
                 data,
-                error
+                message
             )
         }
 
-        fun <T> loading(data: T?): Resource<T> {
+        fun <T> loading(data: T? = null): Resource<T> {
             return Resource(
                 Status.LOADING,
                 data,

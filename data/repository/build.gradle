@@ -14,6 +14,10 @@ dependencies {
     // KOIN
     implementation Libraries.koin
     implementation Libraries.koinViewModel
+    // LiveData
+    implementation Libraries.livedata
+    implementation Libraries.lifecycle
+    implementation Libraries.lifecyclejava
     // TESTS
     testImplementation TestLibraries.junit
     testImplementation TestLibraries.mockk
