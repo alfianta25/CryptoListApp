@@ -17,12 +17,12 @@ android {
             minifyEnabled true
         }
     }
-    buildFeatures {
-        compose true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.0.5"
-    }
+//    buildFeatures {
+//        compose true
+//    }
+//    composeOptions {
+//        kotlinCompilerExtensionVersion = "1.0.5"
+//    }
 }
 
 dependencies {

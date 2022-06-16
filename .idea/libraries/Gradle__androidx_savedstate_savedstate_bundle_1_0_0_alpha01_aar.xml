@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f6843602b9fc7e45374139b22417466c/jetified-savedstate-bundle-1.0.0-alpha01/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/412312e8f8d5f35a33580979e171e0c7/jetified-savedstate-bundle-1.0.0-alpha01/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fa91852c1cad09fd10d7ad9e540729f/jetified-savedstate-bundle-1.0.0-alpha01/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fa91852c1cad09fd10d7ad9e540729f/jetified-savedstate-bundle-1.0.0-alpha01/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fa91852c1cad09fd10d7ad9e540729f/jetified-savedstate-bundle-1.0.0-alpha01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f9fa87eb718baba2a305096e7614ffe7/jetified-savedstate-bundle-1.0.0-alpha01/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f9fa87eb718baba2a305096e7614ffe7/jetified-savedstate-bundle-1.0.0-alpha01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f9fa87eb718baba2a305096e7614ffe7/jetified-savedstate-bundle-1.0.0-alpha01/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
